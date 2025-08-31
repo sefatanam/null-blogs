@@ -94,13 +94,13 @@ import { Note } from '../../note';
           >
             <div class="flex items-center justify-between">
               <p class="text-sm text-zinc-400">{{ note.createdAt | date }}</p>
-              <button
+              <!-- <button
                 [attr.data-testid]="'removeNoteAtIndexBtn' + i"
                 class="inline-flex items-center justify-center text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-zinc-100 hover:text-zinc-950 h-6 w-6 rounded-md"
                 (click)="removeNote(note.id)"
               >
                 x
-              </button>
+              </button> -->
             </div>
             <p class="mb-4">{{ note.note }}</p>
           </div>
