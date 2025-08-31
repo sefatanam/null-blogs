@@ -2,7 +2,11 @@
   "name": "@null-blogs/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build":"npx nx build site",
+    "start":"npx nx run site:serve:production",
+    "dev":"npx nx serve site"
+  },
   "private": true,
   "dependencies": {
     "@analogjs/content": "^1.20.1",
